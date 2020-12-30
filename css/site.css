@@ -1,4 +1,22 @@
-* {
+.imgipg {
+    background-image: url("../img/ipg.jpg");
+    background-repeat: repeat-x;
+    background-position-y: bottom;
+}
+
+.text-primary {
+    color: darkred !important;
+}
+
+.btn-primary {
+    background-color: darkred !important;
+}
+
+.btn-secondary {
+    background-color: #c8c0c0 !important;
+}
+
+/** {
     box-sizing: border-box;
 }
 
@@ -7,35 +25,35 @@ body {
     font-size: 16px;
     background-color: #ccc;
     margin: 10px;
-}
+}*/
 
 /* Style the header */
-header {
+/*header {
     background-color: white;
     padding: 30px;
     text-align: center;
     font-size: 35px;
     color: darkred;
-}
+}*/
 
 /* Container for flexboxes */
-section {
+/*section {
     display: -webkit-flex;
     display: flex;
-}
+}*/
 
 /* Style the navigation menu */
-nav {
+/*nav {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
     background: #ccc;
     padding: 10px;
-    background-color: red;
-}
+    background-color: moccasin;
+}*/
 
     /* Style the list inside the menu */
-    nav ul {
+    /*nav ul {
         list-style-type: none;
         padding: 0;
     }
@@ -58,28 +76,28 @@ nav {
 
         nav a:active {
             font-weight: bold;
-        }
+        }*/
 
 
 /* Style the content */
-article {
+/*article {
     -webkit-flex: 3;
     -ms-flex: 3;
     flex: 3;
     background-color: #f1f1f1;
     padding: 10px;
-}
+}*/
 
 /* Style the footer */
-footer {
-    background-color: black;
+/*footer {
+    background-color: #777;
     padding: 10px;
     text-align: center;
     color: white;
-}
+}*/
 
 /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
-@media (max-width: 600px) {
+/*@media (max-width: 600px) {
     section {
         -webkit-flex-direction: column;
         flex-direction: column;
@@ -137,3 +155,8 @@ ul.ipg li {
         background: #468CCF;
         background: linear-gradient(to top, #468CCF, #63B8EE);
     }
+
+tbody>tr:nth-child(odd) {
+    background-color: darkred;
+    color: white;
+}*/
